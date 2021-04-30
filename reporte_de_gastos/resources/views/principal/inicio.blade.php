@@ -6,15 +6,15 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="First web with Laravel.">
-    <meta name="author" content="Iamsoftware">
+    <meta name="author" content="Iamsoftware.co">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="Iamsoftware" /> <!-- website name -->
-	<meta property="og:site" content="Iamsoftware" /> <!-- website link -->
-	<meta property="og:title" content="Iamsoftware"/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="Iamsoftware" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="Iamsoftware" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="Iamsoftware" /> <!-- where do you want your post to link to -->
+	<meta property="og:site_name" content="iamsoftware.co" /> <!-- website name -->
+	<meta property="og:site" content="iamsoftware.co" /> <!-- website link -->
+	<meta property="og:title" content="iamsoftware.co"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="iamsoftware.co" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="iamsoftware.co" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="iamsoftware.co" /> <!-- where do you want your post to link to -->
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
