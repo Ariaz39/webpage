@@ -26,9 +26,6 @@ class HomeController extends Controller
         return view('principal.inicio');
     }
 
-    public function admin()
-    {
-        return view('admin.dashboard');
-    }
+
 
 }
