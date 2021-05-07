@@ -6,6 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/reporte_de_gastos/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/reporte_de_gastos/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/reporte_de_gastos/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/reporte_de_gastos/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/reporte_de_gastos/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/reporte_de_gastos/vendor/krlove/eloquent-model-generator" />
+      <excludeFolder url="file://$MODULE_DIR$/reporte_de_gastos/vendor/krlove/code-generator" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

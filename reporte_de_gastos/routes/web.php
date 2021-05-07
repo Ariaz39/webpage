@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::get('/dashboard', 'AdminController@admin');
-Route::get('/dashboard2', 'AdminController@admin2');
-Route::get('/admini', 'AdminController@index');
+Route::get('/dashboard', 'AdminController@index');
+Route::get('/crear-usuario', 'AdminController@create');
+Route::get('/listar-usuario', 'AdminController@show');
 

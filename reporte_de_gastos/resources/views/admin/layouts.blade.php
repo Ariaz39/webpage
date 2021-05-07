@@ -27,10 +27,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Home</a>
+        <a href="dashboard" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Create</a>
+        <a href="crear-usuario" class="nav-link">Crear usuario</a>
       </li>
     </ul>
 
@@ -204,13 +204,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link @yield('listar-usuario')">
+                <a href="listar-usuario" class="nav-link @yield('listar-usuario')">
                   <i class="far fa-edit nav-icon"></i>
                   <p>Listar Usuarios</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link @yield('crear-usuario')">
+                <a href="crear-usuario" class="nav-link @yield('crear-usuario')">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Crear Usuario</p>
                 </a>
@@ -246,17 +246,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
     <div class="p-3">
-      <h5>Account</h5>
+      <h5>Cuenta</h5>
 
         @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/dashboard') }}">Dashboard</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}">Iniciar sesión</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}">Registrarse</a>
                         @endif
                     @endauth
                 </div>

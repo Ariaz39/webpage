@@ -104,6 +104,12 @@
       <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/krlove/eloquent-model-generator" />
+      <path value="$PROJECT_DIR$/reporte_de_gastos/vendor/krlove/code-generator" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

@@ -18,17 +18,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.index');
-    }
-
-    public function admin()
-    {
         return view('admin.dashboard');
-    }
-
-    public function admin2()
-    {
-        return view('admin.crear-usuario');
     }
 
     /**
@@ -38,7 +28,7 @@ class AdminController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.crear-usuario');
     }
 
     /**
@@ -58,9 +48,9 @@ class AdminController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show() //Mandar parametro $id por defeto
     {
-        //
+        return view('admin.listar-usuario');
     }
 
     /**
