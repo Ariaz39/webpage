@@ -15,7 +15,18 @@ class CreateUsuariosTable extends Migration
     {
         Schema::create('usuarios', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('nombre',100);
+            $table->string('apellido',100);
+            $table->smallInteger('telefono');
+            $table->string('email',50);
+            $table->unsignedTinyInteger('estado_id');
+            $table->unsignedTinyInteger('tipodoc_id');
+            $table->string('documento');
+            $table->text('password');
             $table->timestamps();
+
+            $table->foreign('tipodoc_id')->references('id')->on('tipodoc');
+            $table->foreign('estado_id')->references('id')->on('estado');
         });
     }
 
