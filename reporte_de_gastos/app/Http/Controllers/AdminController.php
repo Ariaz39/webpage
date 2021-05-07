@@ -26,6 +26,11 @@ class AdminController extends Controller
         return view('admin.dashboard');
     }
 
+    public function admin2()
+    {
+        return view('admin.crear-usuario');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
